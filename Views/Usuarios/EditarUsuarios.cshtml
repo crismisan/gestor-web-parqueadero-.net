@@ -1,0 +1,50 @@
+﻿@model UsuariosModel
+@{
+    ViewData["Title"] = "EditarUsuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Editar</h6>
+                    <h4><i class="fa-solid fa-car-side"></i> Cupos del parqueadero </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form asp-action="EditarUsuarios" asp-controller="Usuarios" method="post">
+                                        <input asp-for="Idusuario" type="hidden" class="form-control">
+                                        <div class="mb-3">
+                                            <label class="form-label">Nombre</label>
+                                            <input asp-for="Nombre" type="text" class="form-control" aria-describedby="emailHelp">
+                                            <span asp-validation-for="Nombre" class="text-darger"> </span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Email</label>
+                                            <input asp-for="Email" type="text" class="form-control">
+                                            <span asp-validation-for="Email" class="text-darger"> </span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Telefono</label>
+                                            <input asp-for="Telefono" type="text" class="form-control">
+                                            <span asp-validation-for="Telefono" class="text-darger"> </span>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Guardar</button>
+                                        <a asp-action="ListarUsuarios" asp-controller="Usuarios" class="btn btn-warning">Volver a la lista</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

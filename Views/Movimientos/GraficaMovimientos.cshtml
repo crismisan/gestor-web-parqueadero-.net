@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Gráfica de Movimientos por Fecha";
+}
+
+<h2>Gráfica de Movimientos por Fecha</h2>
+<canvas id="chartMovimientos" width="400" height="200"></canvas>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        $(document).ready(function () {
+            var ctx = document.getElementById('chartMovimientos').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: @Html.Raw(Json.Serialize(ViewBag.Fechas)),
+                    datasets: [{
+                        label: 'Cantidad de Movimientos',
+                        data: @Html.Raw(Json.Serialize(ViewBag.Cantidades)),
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+}
+
+

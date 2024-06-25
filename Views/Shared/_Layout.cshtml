@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Parqueadero</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Parqueadero.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/fontawesome.css" />
+    <link rel="stylesheet" href="~/css/templatemo-574-mexant.css">
+    <link rel="stylesheet" href="~/css/animate.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.css">
+    <title>Botón Invisible</title>
+    <style>
+        .invisible {
+            display: none; /* Oculta el botón y no ocupa espacio */
+        }
+    </style>
+</head>
+<body>
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Usuarios" asp-action="ListarUsuarios">Usuarios</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Empleado" asp-action="ListarEmpleados">Empleados</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Cupos" asp-action="ListarCupos">Cupos</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Vehiculos" asp-action="Listar">Vehiculos</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Movimientos" asp-action="ListarMovimientos">Movimientos</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Asignacion" asp-action="ListarAsignaciones">Asignaciones</a></li>
+                            <li class="scroll-to-section"><a asp-controller="Entrega" asp-action="ListarEntrega">Entrega</a></li>
+                            <li class="scroll-to-section"><a asp-controller="ReporteMovimientos" asp-action="Index">Informe</a></li>
+                           
+                            <li class="invisible"><a asp-controller="ReporteMovimientos" asp-action="Index">Informe</a></li>
+                        </ul>
+                        <!-- ***** Logo Start ***** -->
+                        <!-- <a href="index.html" class="logo">
+                            <img class="imglogo" src="~/images/Logo-AutoPark-Ancho.png" alt="">
+                        </a>-->
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/isotope.min.js"></script>
+    <script src="~/js/owl-carousel.js"></script>
+    <script src="~/js/tabs.js"></script>
+    <script src="~/js/swiper.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        var interleaveOffset = 0.5;
+        var swiperOptions = {
+            loop: true,
+            speed: 1000,
+            grabCursor: true,
+            watchSlidesProgress: true,
+            mousewheelControl: true,
+            keyboardControl: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            on: {
+                progress: function () {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        var slideProgress = swiper.slides[i].progress;
+                        var innerOffset = swiper.width * interleaveOffset;
+                        var innerTranslate = slideProgress * innerOffset;
+                        swiper.slides[i].querySelector(".slide-inner").style.transform =
+                            "translate3d(" + innerTranslate + "px, 0, 0)";
+                    }
+                },
+                touchStart: function () {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        swiper.slides[i].style.transition = "";
+                    }
+                },
+                setTransition: function (speed) {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        swiper.slides[i].style.transition = speed + "ms";
+                        swiper.slides[i].querySelector(".slide-inner").style.transition =
+                            speed + "ms";
+                    }
+                }
+            }
+        };
+        var swiper = new Swiper(".swiper-container", swiperOptions);
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

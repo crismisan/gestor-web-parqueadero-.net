@@ -1,0 +1,57 @@
+﻿@model List<CuposModel>
+@{
+    ViewData["Title"] = "ListarCupos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="calculator" style="margin-top: 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Tabla</h6>
+                    <h4><i class="fa-solid fa-right-to-bracket"></i> Gestión de cupos </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <a asp-action="GuardarCupos" asp-controller="Cupos" class="btn btn-success"><i class="bi bi-plus-circle"></i> Crear Nuevo</a>
+                                    <table class="listado">
+                                        <thead>
+                                        <th>Id Cupo</th>
+                                        <th>Numero</th>
+                                        <th>Estado</th>
+                                        <th>Accion</th>
+                                    </thead>
+                                        <tbody>
+                                            @foreach (var item in Model)
+                                            {
+                                                <tr>
+                                                    <td>@item.Idcupo</td>
+                                                    <td>@item.Numero</td>
+                                                    <td>@item.Estado</td>
+                                                    <td>
+                                                        <a asp-action="EditarCupos" asp-controller="Cupos" class="btn btn-primary" asp-route-Idcupo="@item.Idcupo"><i class="bi bi-pen"></i>Editar</a>
+                                                        <a asp-action="EliminarCupos" asp-controller="Cupos" class="btn btn-danger" asp-route-Idcupo="@item.Idcupo">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                                                <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                                                            </svg>Eliminar
+                                                        </a>
+
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

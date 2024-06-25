@@ -1,0 +1,40 @@
+﻿@model MovimientosModel
+@{
+    ViewData["Title"] = "EliminarMovimientos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Estado</h6>
+                    <h4><i class="fa-solid fa-car-side"></i> Parqueadero </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form asp-action="EliminarMovimientos" asp-controller="Movimientos" method="post">
+                                        <input asp-for="Idmovimiento" type="hidden" class="form-control">
+
+                                        <div class="alert alert-danger" role="alert">
+                                            ¿Desea eliminar el Movimiento @Html.DisplayTextFor(m => m.Idmovimiento) ?
+                                        </div>
+
+                                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                                        <a asp-action="ListarMovimientos" asp-controller="Movimientos" class="btn btn-warning">Volver a la lista</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

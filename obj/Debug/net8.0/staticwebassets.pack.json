@@ -1,0 +1,537 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Parqueadero.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Parqueadero.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\css\\templatemo-574-mexant.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo-574-mexant.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\js\\swiper.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\js\\video.js",
+      "PackagePath": "staticwebassets\\assets\\js\\video.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\css\\owl.css",
+      "PackagePath": "staticwebassets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\css\\templatemo-574-mexant.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-574-mexant.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\Logo-AutoPark-Alto.png",
+      "PackagePath": "staticwebassets\\images\\Logo-AutoPark-Alto.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\Logo-AutoPark-Ancho.png",
+      "PackagePath": "staticwebassets\\images\\Logo-AutoPark-Ancho.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\OIP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\about-left-image.jpg",
+      "PackagePath": "staticwebassets\\images\\about-left-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\calculator-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\calculator-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\calculator-image.png",
+      "PackagePath": "staticwebassets\\images\\calculator-image.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\client-01.png",
+      "PackagePath": "staticwebassets\\images\\client-01.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\cta-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\google-maps.jpg",
+      "PackagePath": "staticwebassets\\images\\google-maps.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\heading-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\heading-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\parking.jpg",
+      "PackagePath": "staticwebassets\\images\\parking.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\service-details-01.jpg",
+      "PackagePath": "staticwebassets\\images\\service-details-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\service-details-02.jpg",
+      "PackagePath": "staticwebassets\\images\\service-details-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\service-details-03.jpg",
+      "PackagePath": "staticwebassets\\images\\service-details-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\service-image-01.jpg",
+      "PackagePath": "staticwebassets\\images\\service-image-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\service-image-02.jpg",
+      "PackagePath": "staticwebassets\\images\\service-image-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\service-image-03.jpg",
+      "PackagePath": "staticwebassets\\images\\service-image-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\slide-02.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\slide-03.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\images\\testimonials-01.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonials-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\js\\swiper.js",
+      "PackagePath": "staticwebassets\\js\\swiper.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\js\\video.js",
+      "PackagePath": "staticwebassets\\js\\video.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\usuario\\Desktop\\Parqueadero\\Parqueadero\\wwwroot\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Parqueadero.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Parqueadero.props",
+      "PackagePath": "build\\Parqueadero.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Parqueadero.props",
+      "PackagePath": "buildMultiTargeting\\Parqueadero.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Parqueadero.props",
+      "PackagePath": "buildTransitive\\Parqueadero.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

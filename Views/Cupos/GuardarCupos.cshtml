@@ -1,0 +1,44 @@
+﻿@model CuposModel
+@{
+    ViewData["Title"] = "GuardarCupos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Estado</h6>
+                    <h4><i class="fa-solid fa-car-side"></i> Parqueadero </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form asp-action="GuardarCupos" asp-controller="Cupos" method="post">
+                                        <div class="mb-3">
+                                            <label class="form-label white-text" >Numero</label>
+                                            <input asp-for="Numero" type="text" class="form-control" placeholder="Numero">
+                                            <span asp-validation-for="Numero" class="text-darger"> </span>
+                                        </div>
+                                        <label class="form-label">Estado</label>
+                                        <select asp-for="Estado" class="form-control">
+                                            <option value="">Seleccione el estado</option>
+                                                <option value="Activo">Activo</option>
+                                                <option value="Inactivo">Inactivo</option>
+                                            
+                                        </select>
+
+                                        <button type="submit" class="btn btn-primary">Guardar</button>
+                                        <a asp-action="ListarCupos" asp-controller="Cupos" class="btn btn-warning">Volver a la lista</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

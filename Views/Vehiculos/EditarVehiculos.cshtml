@@ -1,0 +1,49 @@
+﻿@model VehiculosModel
+@{
+    ViewData["Title"] = "EditarVehiculos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Editar</h6>
+                    <h4><i class="fa-solid fa-car-side"></i> Cupos del parqueadero </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form asp-action="EditarVehiculos" asp-controller="Vehiculos" method="post">
+                                        <input asp-for="Idvehiculos" type="hidden" class="form-control">
+                                        <div class="mb-3">
+                                            <label class="form-label">Placa</label>
+                                            <input asp-for="Placa" type="text" class="form-control" aria-describedby="emailHelp">
+                                            <span asp-validation-for="Placa" class="text-darger"> </span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Modelo</label>
+                                            <input asp-for="Modelo" type="text" class="form-control">
+                                            <span asp-validation-for="Modelo" class="text-darger"> </span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Id Usuario</label>
+                                            <input asp-for="UsuarioId" type="text" class="form-control">
+                                            <span asp-validation-for="UsuarioId" class="text-darger"> </span>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary">Guardar</button>
+                                        <a asp-action="Listar" asp-controller="Vehiculos" class="btn btn-warning">Volver a la lista</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,92 @@
+﻿@model EntregaModel
+@{
+    ViewData["Title"] = "AgregarEntrega";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Estado</h6>
+                    <h4><i class="fa-solid fa-car-side"></i> Parqueadero </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form asp-action="AgregarEntrega" asp-controller="Entrega" method="post">
+                                        <div class="form-group">
+                                            <label>ID Asignación:</label>
+                                            <select asp-for="IdAsignacion" class="form-control" id="IdAsignacion">
+                                                <option value="">Seleccione una asignación</option>
+                                                @foreach (var asignacion in Model.AsignacionesDisponibles)
+                                                {
+                                                    <option value="@asignacion.IdAsignacion">@asignacion.IdAsignacion</option>
+                                                }
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>ID Usuario:</label>
+                                            <input asp-for="IdUsuario" class="form-control" id="IdUsuario" readonly>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>ID Empleado:</label>
+                                            <input asp-for="IdEmpleado" class="form-control" id="IdEmpleado" readonly>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>ID Cupo:</label>
+                                            <input asp-for="IdCupo" class="form-control" id="IdCupo" readonly>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>ID Vehículo:</label>
+                                            <input asp-for="IdVehiculo" class="form-control" id="IdVehiculo" readonly>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Fecha y Hora de Entrega:</label>
+                                            <input asp-for="FechaHoraEntrega" class="form-control">
+                                            <span asp-validation-for="FechaHoraEntrega" class="text-danger"></span>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Guardar Entrega</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#IdAsignacion').change(function () {
+            var idAsignacion = $(this).val();
+            if (idAsignacion) {
+                $.ajax({
+                    url: '@Url.Action("ObtenerDatosAsignacion", "Entrega")',
+                    type: 'GET',
+                    data: { idAsignacion: idAsignacion },
+                    success: function (response) {
+                        $('#IdUsuario').val(response.idUsuario);
+                        $('#IdEmpleado').val(response.idEmpleado);
+                        $('#IdCupo').val(response.idCupo);
+                        $('#IdVehiculo').val(response.idVehiculo);
+                    },
+                    error: function () {
+                        alert('Error al obtener datos de asignación');
+                    }
+                });
+            } else {
+                $('#IdUsuario').val('');
+                $('#IdEmpleado').val('');
+                $('#IdCupo').val('');
+                $('#IdVehiculo').val('');
+            }
+        });
+    });
+</script>

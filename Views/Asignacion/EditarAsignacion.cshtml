@@ -1,0 +1,107 @@
+﻿@model AsignacionModel
+@{
+    ViewData["Title"] = "EditarAsignacion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Estado</h6>
+                    <h4><i class="fa-solid fa-car-side"></i> Parqueadero </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form asp-action="EditarAsignacion" asp-controller="Asignacion" method="post">
+                                        <input asp-for="IdAsignacion" type="hidden"/>
+                                        <div class="mb-3">
+                                            <label class="form-label">Id usuario</label>
+                                            <input asp-for="IdUsuario" id="IdUsuario" type="text" class="form-control" placeholder="Fecha y Hora">
+                                            <span asp-validation-for="IdUsuario" class="text-danger"></span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Usuario</label>
+                                            <select asp-for="IdUsuario" class="form-control">
+                                                <option value="">Seleccione un usuario</option>
+                                                @foreach (var usuario in Model.Usuarios)
+                                                {
+                                                    <option value="@usuario.Idusuario">@usuario.Nombre</option>
+                                                }
+                                            </select>
+                                            <span asp-validation-for="IdUsuario" class="text-danger"></span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Empleado</label>
+                                            <select asp-for="IdEmpleado" class="form-control">
+                                                <option value="">Seleccione un empleado</option>
+                                                @foreach (var empleado in Model.Empleados)
+                                                {
+                                                    <option value="@empleado.Idempleado">@empleado.Nombre</option>
+                                                }
+                                            </select>
+                                            <span asp-validation-for="IdEmpleado" class="text-danger"></span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Cupo</label>
+                                            <select asp-for="IdCupo" class="form-control">
+                                                <option value="">Seleccione un cupo</option>
+                                                @foreach (var cupo in Model.Cupos)
+                                                {
+                                                    <option value="@cupo.Idcupo">@cupo.Numero</option>
+                                                }
+                                            </select>
+                                            <span asp-validation-for="IdCupo" class="text-danger"></span>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label class="form-label">Vehículo</label>
+                                            <select asp-for="IdVehiculo" class="form-control">
+                                                <option value="">Seleccione un vehículo</option>
+                                                @foreach (var vehiculo in Model.Vehiculos)
+                                                {
+                                                    <option value="@vehiculo.Idvehiculos">@vehiculo.Placa</option>
+                                                }
+                                            </select>
+                                            <span asp-validation-for="IdVehiculo" class="text-danger"></span>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label">Fecha y Hora</label>
+                                            <input asp-for="FechaHoraAsignacion" id="FechaHora" type="datetime-local" class="form-control" placeholder="Fecha y Hora">
+                                            <span asp-validation-for="FechaHoraAsignacion" class="text-danger"></span>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Guardar</button>
+                                        <a asp-action="ListarAsignaciones" asp-controller="Asignacion" class="btn btn-warning">Volver a la lista</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var fechaHoraInput = document.getElementById('FechaHora');
+        var ahora = new Date();
+
+        var anio = ahora.getFullYear();
+        var mes = ('0' + (ahora.getMonth() + 1)).slice(-2);
+        var dia = ('0' + ahora.getDate()).slice(-2);
+        var hora = ('0' + ahora.getHours()).slice(-2);
+        var minutos = ('0' + ahora.getMinutes()).slice(-2);
+
+        var fechaHoraActual = anio + '-' + mes + '-' + dia + 'T' + hora + ':' + minutos;
+
+        fechaHoraInput.value = fechaHoraActual;
+    });
+</script>
+
+

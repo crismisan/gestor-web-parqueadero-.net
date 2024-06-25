@@ -1,0 +1,176 @@
+﻿@{
+    ViewData["Title"] = "ListarCupos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio - Parqueadero</title>
+</head>
+<body>
+
+
+    <section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h6>Gestión de parqueadero </h6>
+                        <h4><i class="fa-solid fa-car-side"></i>Universidad Distrital Francisco José de Caldas </h4>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="naccs">
+                            <div class="tabs">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="what-we-do">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="right-items">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <em>01</em>
+                                    <h4>Gestión registro <br>de Usuarios</h4>
+                                    <p>Permite la creación y mantenimiento de una base de datos de Usuarios que utilizan el parqueadero</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <em>02</em>
+                                    <h4>Módulo Registro<br>de Empleados</h4>
+                                    <p>Permite la creación y mantenimiento de una base de datos de Empleados que trabajan el parqueadero</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <em>03</em>
+                                    <h4>Módulo <br>de Vehículo</h4>
+                                    <p>Permite la creación y mantenimiento de una base de datos de Vehiculos que ingresan al parqueadero</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <em>04</em>
+                                    <h4>Gestion de<br>cupos</h4>
+                                    <p>Area donde se gestiona los cupos de las plazas del parqueadero  </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <em>05</em>
+                                    <h4>Movimientos</h4>
+                                    <p>Recibe los movimientos de los modulos de asignación y entrega, tiene su crud propio y se puede generar grafica de movimientos por días</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <em>06</em>
+                                    <h4>Asignacion</h4>
+                                    <p>Permite gestionar asignaciones en cupos disponibles del parqueadero</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <em>07</em>
+                                    <h4>Entrega</h4>
+                                    <p>Permite gestionar entregas para liberar cupos del parqueadero</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="item">
+                                    <em>08</em>
+                                    <h4>Informe</h4>
+                                    <p>Genera reporte de los movimientos generados por los usuarios por fechas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Copyright © 2024 Universidad Distrital Francisco José de Caldas.<br>
+                        Designed by <a rel="sponsored">Santiago Sáenz & Christian Sánchez</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/isotope.min.js"></script>
+    <script src="~/assets/js/owl-carousel.js"></script>
+    <script src="~/assets/js/tabs.js"></script>
+    <script src="~/assets/js/swiper.js"></script>
+    <script src="~/assets/js/custom.js"></script>
+    <script>
+        var interleaveOffset = 0.5;
+
+        var swiperOptions = {
+            loop: true,
+            speed: 1000,
+            grabCursor: true,
+            watchSlidesProgress: true,
+            mousewheelControl: true,
+            keyboardControl: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            on: {
+                progress: function () {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        var slideProgress = swiper.slides[i].progress;
+                        var innerOffset = swiper.width * interleaveOffset;
+                        var innerTranslate = slideProgress * innerOffset;
+                        swiper.slides[i].querySelector(".slide-inner").style.transform =
+                            "translate3d(" + innerTranslate + "px, 0, 0)";
+                    }
+                },
+                touchStart: function () {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        swiper.slides[i].style.transition = "";
+                    }
+                },
+                setTransition: function (speed) {
+                    var swiper = this;
+                    for (var i = 0; i < swiper.slides.length; i++) {
+                        swiper.slides[i].style.transition = speed + "ms";
+                        swiper.slides[i].querySelector(".slide-inner").style.transition =
+                            speed + "ms";
+                    }
+                }
+            }
+        };
+
+        var swiper = new Swiper(".swiper-container", swiperOptions);
+    </script>
+</body>
+</html>

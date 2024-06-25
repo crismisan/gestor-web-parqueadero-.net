@@ -1,0 +1,49 @@
+﻿@model ReportParametersModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Estado</h6>
+                    <h4><i class="fa-solid fa-car-side"></i> Parqueadero </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form asp-action="GenerateReport" method="post">
+                                        <div class="form-group">
+                                            <label for="StartDate">Fecha de Inicio:</label>
+                                            <input asp-for="StartDate" class="form-control" type="date" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="EndDate">Fecha de Fin:</label>
+                                            <input asp-for="EndDate" class="form-control" type="date" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="UserId">Usuario:</label>
+                                            <select asp-for="UserId" class="form-control">
+                                                <option value="">Seleccione un usuario</option>
+                                                @foreach (var user in Model.Users)
+                                                {
+                                                    <option value="@user.Idusuario">@user.Nombre</option>
+                                                }
+                                            </select>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Generar Reporte</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

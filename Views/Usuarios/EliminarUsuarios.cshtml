@@ -1,0 +1,38 @@
+﻿@model UsuariosModel
+@{
+    ViewData["Title"] = "EliminarUsuarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="calculator" style="margin-top: 0px; padding: 130px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Estado</h6>
+                    <h4><i class="fa-solid fa-car-side"></i> Parqueadero </h4>
+                </div>
+                <div class="col-lg-12">
+                    <div class="naccs">
+                        <div class="tabs">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <form asp-action="EliminarUsuarios" asp-controller="Usuarios" method="post">
+                                        <input asp-for="Idusuario" type="hidden" class="form-control">
+
+                                        <div class="alert alert-danger" role="alert">
+                                            ¿Desea eliminar el contacto @Html.DisplayTextFor(m => m.Nombre) ?
+                                        </div>
+
+                                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                                        <a asp-action="ListarUsuarios" asp-controller="Usuarios" class="btn btn-warning">Volver a la lista</a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
